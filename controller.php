@@ -12,10 +12,6 @@ use \Concrete\Core\Page\Single as SinglePage;
 use \Concrete\Core\Page\Type\PublishTarget\Type\Type as PublishTargetType;
 
 defined('C5_EXECUTE') or die('Access Denied.');
-//require_once __DIR__ . '/vendor/autoload.php'; belongs in on_start()
-//Look at C5 Documentation : https://documentation.concrete5.org/developers/packages/overview
-//And : https://github.com/cryophallion/C5-BoilerplatePackageController/blob/master/packageName/controller.php
-ini_set("memory_limit","256M");
 class Controller extends Package
 {
     protected $pkgHandle = 'translate_text';
