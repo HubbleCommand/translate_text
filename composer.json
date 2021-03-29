@@ -4,11 +4,7 @@
     "description": "Package that helps to translate text without GlobalAreas in Concrete5",
     "require": {
         "concrete5/core": ">=8.5.0",
-        "sepia/po-parser" :"^6.0"
+        "sepia/po-parser" :"^6.0",
+        "hubblecommand/translate-text-c5" :">=1.0"
     },
-    "autoload": {
-        "psr-4": {
-            "TranslateText\\": "src/"
-        }
-    }
 }
